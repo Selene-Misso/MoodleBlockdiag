@@ -1,5 +1,5 @@
 <?php
-class block_simplehtml extends block_base {
+class block_blockdiag extends block_base {
   public function init() {
     $this->title = get_string('blockdiag', 'block_blockdiag');
   }

@@ -1,0 +1,2 @@
+# MoodleBlockdiag
+Moodleでblockdiagを使えるようにするブロックプラグイン．

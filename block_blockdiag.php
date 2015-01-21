@@ -17,4 +17,8 @@ public function get_content() {
  
     return $this->content;
   }
+  
+function instance_allow_config() {
+  return true;
+}
 }   // Here's the closing bracket for the class definition

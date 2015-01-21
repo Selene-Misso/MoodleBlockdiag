@@ -12,8 +12,8 @@ public function get_content() {
     }
  
     $this->content         =  new stdClass;
-    $this->content->text   = 'The content of our SimpleHTML block!';
-    $this->content->footer = 'Footer here...';
+    $this->content->text   = 'コンテンツ';
+    $this->content->footer = 'フッタ';
  
     return $this->content;
   }

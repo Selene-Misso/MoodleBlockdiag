@@ -22,3 +22,5 @@ function instance_allow_config() {
   return true;
 }
 }   // Here's the closing bracket for the class definition
+
+?>

@@ -13,7 +13,7 @@ public function get_content() {
  
     $this->content         =  new stdClass;
     $this->content->text   = $this->config->text;
-    $this->content->footer = 'フッタ';
+    $this->content->footer = '';
  
     return $this->content;
   }

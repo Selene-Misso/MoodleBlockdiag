@@ -14,7 +14,7 @@ class block_blockdiag extends block_base {
 	 
 		$this->content         = new stdClass;
 		$this->content->text   = $this->config->text;
-		$this->content->footer = '';
+		$this->content->footer = 'これはフッタ';
 
 		return $this->content;
 	}

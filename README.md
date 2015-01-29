@@ -8,8 +8,9 @@ Moodleでblockdiagを使えるようにするブロックプラグイン．
 ## 環境
 
 * Moodle 2.6
-* PHP
-* blockdiag が動作する環境
+* PHP5
+* blockdiag
 
 ## 機能
 blockdiagを経由してブロック画像を生成する．
+

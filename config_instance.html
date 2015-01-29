@@ -4,7 +4,8 @@
        <?php print_string('configcontent', 'block_blockdiag'); ?>:
     </td>
     <td>
-      <input type="text" name="title" size="30" value="<?php echo $this->config->text; ?>" />    </td>
+       <?php print_textarea(true, 10, 50, 0, 0, 'text', $this->config->text); ?>
+    </td>
   </tr>
   <tr>
     <td colspan="2" align="center">

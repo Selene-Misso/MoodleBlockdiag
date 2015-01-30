@@ -14,11 +14,11 @@ class block_blockdiag extends block_base {
 	 
 		$this->content         = new stdClass;
 		$this->content->text   = '<div style="text-align: center;">';
-		$this->content->text  .= '<form action="convert.php" method="post" target="_blank">入力フォーム<br>';
+		$this->content->text  .= '<form action="../../blocks/blockdiag/convert.php" method="post" target="_blank">入力フォーム<br>';
 		$this->content->text  .= '<textarea name="command" rows="4" style="width: 100%;font-size: 12pt; font-family: monospace;">';
 		$this->content->text  .= '</textarea><br><input type="submit" value="変換">';
 		$this->content->text  .= '</form></div>';
-		$this->content->footer = 'これはフッタ';
+		$this->content->footer = '';
 
 		return $this->content;
 	}

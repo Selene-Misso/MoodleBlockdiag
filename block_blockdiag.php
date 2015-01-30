@@ -16,10 +16,10 @@ class block_blockdiag extends block_base {
 		$this->content->text   = '<div style="text-align: center;">';
 		$this->content->text  .= '<form action="../blocks/blockdiag/convert.php" method="post" target="_blank">blockdiagのコマンドを入力<br>';
 		$this->content->text  .= '<textarea name="block" rows="4" style="width: 100%;font-size: 12pt; font-family: monospace;">';
-		$this->content->text  .= '{';
-		$this->content->text  .= 'a -> b -> c -> f;';
-		$this->content->text  .= '     b -> d -> f;';
-		$this->content->text  .= '}';
+		$this->content->text  .= "{\n";
+		$this->content->text  .= "a -> b -> d -> f;\n";
+		$this->content->text  .= "a -> c -> d;\n";
+		$this->content->text  .= "}\n";
 		$this->content->text  .= '</textarea><br><input type="submit" value="変換">';
 		$this->content->text  .= '</form></div>';
 		$this->content->footer = 'blockdiagの説明は<a href="http://blockdiag.com/ja/index.html" target"_blank">こちら</a>';

@@ -22,7 +22,7 @@ class block_blockdiag extends block_base {
 		$this->content->text  .= "}\n";
 		$this->content->text  .= '</textarea><br><input type="submit" value="変換">';
 		$this->content->text  .= '</form></div>';
-		$this->content->footer = 'blockdiagの説明は<a href="http://blockdiag.com/ja/index.html" target"_blank">こちら</a>';
+		$this->content->footer = 'blockdiagの説明は<a href="http://blockdiag.com/ja/index.html" target="_blank">こちら</a>';
 
 		return $this->content;
 	}

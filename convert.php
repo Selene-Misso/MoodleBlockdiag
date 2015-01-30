@@ -7,7 +7,6 @@
 
 <h2> 変換結果 </h2>
 <?php 
-
 if(isset($_POST)){
 	$blockstr = $_POST['block'];
 
@@ -18,18 +17,13 @@ if(isset($_POST)){
 
 	if(strlen($contents) > 0){
 		echo $contents;
+		echo '<br><a href="'.$url.'"> ダウンロード(SVG) </a>';
 	}else{
 		echo '<h3>構文エラー!</h3>';
 		
 	}
 }
 ?>
-<br>
-<?php 
-if(strlen($contents) > 0)
-	echo '<a href="'.$url.'"> ダウンロード(SVG) </a>';
-?>
-
 <footer>
 <p>図の生成には http://interactive.blockdiag.com/ が提供する
 Web APIを利用しています．</p>
